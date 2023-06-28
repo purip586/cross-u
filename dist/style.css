@@ -562,6 +562,9 @@ button:hover::before,
 .footer__logo {
   display: inline-block;
 }
+.footer__logo img{
+  width: 100px;
+}
 @media (max-width: 63.9375em) {
   .footer__logo {
     margin-bottom: 1.875rem;
