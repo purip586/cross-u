@@ -544,7 +544,7 @@ button:hover::before,
   background-color: #2e2e2e;
   color: white;
   padding: 2.5rem;
-  text-align: center;
+  /* text-align: center; */
 }
 @media (min-width: 64em) {
   .footer .container {
@@ -563,7 +563,7 @@ button:hover::before,
   display: inline-block;
 }
 .footer__logo img{
-  width: 100px;
+  width: 80px;
 }
 @media (max-width: 63.9375em) {
   .footer__logo {
