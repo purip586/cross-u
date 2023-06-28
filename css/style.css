@@ -346,7 +346,7 @@ button:hover::before,
 }
 
 .hero {
-  /* background-color: #fafafa; */
+  background-color: #fafafa;
   /* background-image: linear-gradient(to left, #8DC63F, transparent); */
 }
 @media (min-width: 64em) {
