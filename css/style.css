@@ -274,7 +274,7 @@ button:hover::before,
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: linear-gradient(#82a446, transparent);
+  background-image: linear-gradient(#5e7eb7, transparent);
 }
 .header nav {
   position: relative;
@@ -289,7 +289,7 @@ button:hover::before,
   display: block;
   width: 26px;
   height: 2px;
-  background-color: #82a446;
+  background-color: #5e7eb7;
   transition: all 300ms ease-in-out;
   transform-origin: 3px 1px;
 }
