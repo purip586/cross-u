@@ -1,6 +1,4 @@
-/* color code  */
-/* primary color #82a446
-secondary color #c9c92d */
+
 
 .has-fade {
   visibility: hidden;
@@ -341,6 +339,7 @@ button:hover::before,
   .hero .container {
     display: flex;
     align-items: center;
+    height: 90vh;
   }
 }
 .hero__image {
@@ -349,60 +348,28 @@ button:hover::before,
   opacity: 0.8;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   min-height: 17.5rem;
+  transition: all 1s;
+}
+.hero__image:hover {
+  background-image: url("/assets/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
+  opacity: 0.8;
 }
 @media (min-width: 40em) {
   .hero__image {
     min-height: 25rem;
-    background-position: center 70%;
+    background-position: center;
   }
 }
 @media (min-width: 64em) {
   .hero__image {
     flex: 3;
     order: 2;
-    height: 41rem;
-    background-image: none;
+    height: 30rem;
   }
-}
-@media (min-width: 64em) {
-  .hero__image::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url("/assets/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg");
-    opacity: 0.8;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-  }
-}
-.hero__image::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url("");
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
-@media (min-width: 40em) {
-  .hero__image::after {
-    background-size: 52%;
-  }
-}
-@media (min-width: 64em) {
-  .hero__image::after {
-    width: 120%;
-    height: 122%;
-    background-size: 94%;
-    background-position: center 150%;
-    left: 22%;
-  }
-}
 .hero__text {
   text-align: center;
 }
