@@ -373,6 +373,9 @@ button:hover::before,
 .hero__text {
   text-align: center;
 }
+.hero__text span {
+  color: #5e7eb7;
+}
 @media (min-width: 64em) {
   .hero__text {
     flex: 2;
