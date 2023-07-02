@@ -350,7 +350,7 @@ button:hover::before,
   background-repeat: no-repeat;
   background-position: center;
   min-height: 17.5rem;
-  transition: all 1s;
+  transition: all 3s;
 }
 .hero__image:hover {
   background-image: url("/assets/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
