@@ -396,6 +396,9 @@ button:hover::before,
 .feature__intro {
   margin-bottom: 3.75rem;
 }
+.feature__image {
+  background-image: url(/assets/社.jpg);
+}
 @media (min-width: 64em) {
   .feature__intro {
     width: 60%;
