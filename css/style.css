@@ -355,6 +355,7 @@ button:hover::before,
 .hero__image:hover {
   background-image: url("/assets/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
   opacity: 0.8;
+  transition: all 1s;
 }
 @media (min-width: 40em) {
   .hero__image {
@@ -396,14 +397,22 @@ button:hover::before,
 .feature__intro {
   margin-bottom: 3.75rem;
 }
-.feature__image {
-  background-image: url(/assets/社.jpg);
-}
 @media (min-width: 64em) {
   .feature__intro {
-    width: 60%;
+    min-width: 50%;
+    display: flex;
   }
 }
+.feature__image {
+  /* min-width: 50%; */
+}
+.feature__image img {
+  width: 500px;
+}
+/* .feature__image span {
+  color: #5e7eb7;
+} */
+
 @media (min-width: 40em) {
   .feature__grid {
     display: flex;
