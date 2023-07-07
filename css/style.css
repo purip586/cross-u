@@ -404,14 +404,18 @@ button:hover::before,
   }
 }
 .feature__image {
-  /* min-width: 50%; */
+  background-image: url(/assets/bg-intro-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .feature__image img {
-  width: 500px;
+  width: 300px;
 }
-/* .feature__image span {
-  color: #5e7eb7;
-} */
+@media (min-width: 40em) {
+  .feature__image img {
+    width: 600px;
+  }
+}
 
 @media (min-width: 40em) {
   .feature__grid {
