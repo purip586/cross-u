@@ -407,13 +407,14 @@ button:hover::before,
   background-image: url(/assets/bg-intro-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .feature__image img {
   width: 300px;
 }
 @media (min-width: 40em) {
   .feature__image img {
-    width: 600px;
+    width: 400px;
   }
 }
 
