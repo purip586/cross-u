@@ -405,7 +405,7 @@ button:hover::before,
 }
 .feature__image {
   background-image: url(/assets/bg-intro-desktop.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .feature__image img {
@@ -580,7 +580,7 @@ button:hover::before,
   transition: fill 150ms ease-in-out;
 }
 .footer__social a:hover svg path {
-  fill: #82a446;
+  fill: #5e7eb7;
 }
 .footer__social a:not(:last-child) {
   margin-right: 1rem;
@@ -617,7 +617,7 @@ button:hover::before,
   transition: color 150ms ease-in-out;
 }
 .footer__links a:hover {
-  color: #82a446;
+  color: #5e7eb7;
 }
 @media (min-width: 64em) {
   .footer__cta {
