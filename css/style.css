@@ -344,7 +344,7 @@ button:hover::before,
 }
 .hero__image {
   position: relative;
-  background-image: url("/assets/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg");
+  background-image: url("../assets/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg");
   opacity: 0.8;
   background-size: cover;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ button:hover::before,
   transition: all 3s;
 }
 .hero__image:hover {
-  background-image: url("/assets/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
+  background-image: url("../assets/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
   opacity: 0.8;
   transition: all 1s;
 }
@@ -404,7 +404,7 @@ button:hover::before,
   }
 }
 .feature__image {
-  background-image: url(/assets/bg-intro-desktop.svg);
+  background-image: url("../assets/bg-intro-desktop.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
