@@ -496,8 +496,9 @@ button:hover::before,
   transform: scale(1.05);
 }
 .article__image {
+  background-color: #5e7eb7;
   height: 12.5rem;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
