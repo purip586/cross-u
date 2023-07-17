@@ -28,5 +28,22 @@ btnHamburger.addEventListener("click", function () {
 const cta = document.getElementById("cta");
 
 cta.addEventListener("click", function () {
-  console.log("click start");
+  document.getElementById("popupForm").style.display = "block";
+});
+
+document.getElementById("nextStep1").addEventListener("click", function () {
+  const name = document.getElementById("nameInput").value;
+  console.log(name);
+  // You can perform additional actions here, such as sending the email to a server
+
+  document.getElementById("step1").style.display = "none";
+  document.getElementById("step2").style.display = "block";
+});
+
+document.getElementById("nextStep2").addEventListener("click", function () {
+  const email = document.getElementById("emailInput").value;
+  console.log(email);
+
+  document.getElementById("step2").style.display = "none";
+  document.getElementById("step3").style.display = "block";
 });
