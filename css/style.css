@@ -454,6 +454,7 @@ button:hover::before,
 }
 .feature__item {
   padding: 0.9375rem;
+  margin: 2rem 0;
 }
 @media (min-width: 40em) {
   .feature__item {
