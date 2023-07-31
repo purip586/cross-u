@@ -406,11 +406,14 @@ button:hover::before,
 }
 .popup__form input{
   padding: 1rem;
-  border: none;
-  border-bottom: 1px solid #000;
-  outline: none;
+  border: 0;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+  outline: 0;
   margin-bottom: 1.5rem;
   display: block;
+  background: transparent;
+  -webkit-appearance: none;
 }
 
 
