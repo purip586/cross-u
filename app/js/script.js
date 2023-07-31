@@ -47,3 +47,10 @@ document.getElementById("nextStep2").addEventListener("click", function () {
   document.getElementById("step2").style.display = "none";
   document.getElementById("step3").style.display = "block";
 });
+document.getElementById("nextStep3").addEventListener("click", function () {
+  const location = document.getElementById("locationInput").value;
+  console.log(location);
+
+  document.getElementById("step3").style.display = "none";
+  document.getElementById("step4").style.display = "block";
+});
