@@ -413,6 +413,7 @@ button:hover::before,
   margin-bottom: 1.5rem;
   display: block;
   background: transparent;
+  appearance: none;
   -webkit-appearance: none;
 }
 
