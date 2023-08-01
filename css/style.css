@@ -586,7 +586,7 @@ img:hover {
 
 .footer {
   background-color: #2e2e2e;
-  color: white;
+  color: #9698a6;
   padding: 2.5rem;
   text-align: center;
 }
@@ -600,8 +600,8 @@ img:hover {
     justify-items: start;
   }
 }
-.footer a {
-  color: white;
+.footer {
+  color: #9698a6;
 }
 .footer__logo {
   display: inline-block;
@@ -609,6 +609,9 @@ img:hover {
 }
 .footer__logo img{
   width: 80px;
+}
+.footer__logo span{
+  font-size: 1rem;
 }
 @media (max-width: 63.9375em) {
   .footer__logo {
