@@ -34,8 +34,8 @@ cta.addEventListener("click", function () {
 document.getElementById("nextStep1").addEventListener("click", function () {
   const name = document.getElementById("nameInput").value;
   console.log(name);
-  // You can perform additional actions here, such as sending the email to a server
-  document.getElementById("name").textContent = "Hi " + name;
+  document.getElementById("email").textContent =
+    "Hi " + name + ", What is your email?";
   document.getElementById("step1").style.display = "none";
   document.getElementById("step2").style.display = "block";
 });

@@ -55,28 +55,34 @@
         <a href="#" class="button hero__cta" id="cta">Start Now</a>
       </div>
       <!-- HTML structure for the pop-up form -->
-      <div id="popupForm" class="popup__form">
+      <form action="send_email.php" method="post" id="popupForm" class="popup__form">
         <div id="step1">
-          <h3>Hi, What should we call you?</h3>
-          <input type="text" id="nameInput" placeholder="Enter Your Name" required>
+          <label for="name">Hi, What should we call you?</label>
+          <input type="text" id="nameInput" name="name" placeholder="Enter Your Name" required>
           <button id="nextStep1">Go</button>
         </div>
         <div id="step2" style="display:none;">
-          <h3 id="name"></h3>
-          <input type="email" id="emailInput" placeholder="Enter Your email" required>
+          <label for="email" id="email"></label>
+          <input type="email" id="emailInput" name="email" placeholder="Enter Your email" required>
           <button id="nextStep2">Go</button>
         </div>
         <div id="step3" style="display:none;">
-          <h3>What area are you looking for buying a property?</h3>
-          <input type="text" id="locationInput" placeholder="____ Ken ____ Shi" required>
+          <label for="location">What area are you looking for buying a property?</label>
+          <input type="text" id="locationInput" name="location" placeholder="Prefecture/City" required>
           <button id="nextStep3">Go</button>
         </div>
         <div id="step4" style="display:none;">
-          <h3>What is your visa?</h3>
-          <input type="text" id="visaInput" placeholder="Your Visa Type">
+          <label for="visa">What is your visa?</label>
+          <input type="text" id="visaInput" name="visa" placeholder="Your Visa Type">
           <button id="nextStep4">Go</button>
         </div>
-      </div>
+        <div id="step5" style="display:none;">
+          <label for="income">What is your annual income?</label>
+          <input type="text" id="incomeInput" name="income" placeholder="? million">
+          <input type="submit" value="Submit">
+        </div>
+
+      </form>
     </div>
   </section>
 
