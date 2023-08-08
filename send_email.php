@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $location = $_POST["location"];
+    $area = $_POST["area"];
     $visa = $_POST["visa"];
     $income = $_POST["income"];
 
