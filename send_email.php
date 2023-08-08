@@ -3,18 +3,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $area = $_POST["area"];
-    $visa = $_POST["visa"];
-    $income = $_POST["income"];
+    $subject = $_POST["subject"];
+    $message = $_POST["message"];
 
     $recipient = "puri@xu-1.co.jp";
 
     // Create email headers
     $headers = "From: $name <$email>\r\n";
     $headers = "Reply-To: $email\r\n";
+    $subject = "Subject: $subject\r\n";
+    $message = "Message: $message\r\n"
     
     // Send the email
-    if (mail($recipient, $headers)) {
+    if (mail($recipient, $headers, $subject, $message)) {
         echo "Thank you for contacting us! Your message has been sent successfully.";
     } else {
         echo "Oops! Something went wrong. Please try again later.";

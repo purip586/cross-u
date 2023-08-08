@@ -48,16 +48,9 @@ document.getElementById("nextStep2").addEventListener("click", function () {
   document.getElementById("step3").style.display = "block";
 });
 document.getElementById("nextStep3").addEventListener("click", function () {
-  const location = document.getElementById("locationInput").value;
-  console.log(location);
+  const subject = document.getElementById("subjectInput").value;
+  console.log(subject);
 
   document.getElementById("step3").style.display = "none";
   document.getElementById("step4").style.display = "block";
-});
-document.getElementById("nextStep4").addEventListener("click", function () {
-  const visa = document.getElementById("visaInput").value;
-  console.log(visa);
-
-  document.getElementById("step4").style.display = "none";
-  document.getElementById("step5").style.display = "block";
 });
