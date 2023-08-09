@@ -11,11 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Create email headers
     $headers = "From: $name <$email>\r\n";
     $headers = "Reply-To: $email\r\n";
-    $headers = "Subject: $subject\r\n";
-    $headers = "Message: $message\r\n"
     
     // Send the email
-    if (mail($recipient, $headers)) {
+    if (mail($recipient, $headers, $subject, $message)) {
         echo "Thank you for contacting us! Your message has been sent successfully.";
     } else {
         echo "Oops! Something went wrong. Please try again later.";
