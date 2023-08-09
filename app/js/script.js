@@ -31,26 +31,26 @@ cta.addEventListener("click", function () {
   document.getElementById("popupForm").style.display = "block";
 });
 
-document.getElementById("nextStep1").addEventListener("click", function () {
-  const name = document.getElementById("nameInput").value;
-  console.log(name);
-  document.getElementById("email").textContent =
-    "Hi " + name + ", What is your email?";
-  document.getElementById("step1").style.display = "none";
-  document.getElementById("step2").style.display = "block";
-});
+// document.getElementById("nextStep1").addEventListener("click", function () {
+//   const name = document.getElementById("nameInput").value;
+//   console.log(name);
+//   document.getElementById("email").textContent =
+//     "Hi " + name + ", What is your email?";
+//   document.getElementById("step1").style.display = "none";
+//   document.getElementById("step2").style.display = "block";
+// });
 
-document.getElementById("nextStep2").addEventListener("click", function () {
-  const email = document.getElementById("emailInput").value;
-  console.log(email);
+// document.getElementById("nextStep2").addEventListener("click", function () {
+//   const email = document.getElementById("emailInput").value;
+//   console.log(email);
 
-  document.getElementById("step2").style.display = "none";
-  document.getElementById("step3").style.display = "block";
-});
-document.getElementById("nextStep3").addEventListener("click", function () {
-  const subject = document.getElementById("subjectInput").value;
-  console.log(subject);
+//   document.getElementById("step2").style.display = "none";
+//   document.getElementById("step3").style.display = "block";
+// });
+// document.getElementById("nextStep3").addEventListener("click", function () {
+//   const subject = document.getElementById("subjectInput").value;
+//   console.log(subject);
 
-  document.getElementById("step3").style.display = "none";
-  document.getElementById("step4").style.display = "block";
-});
+//   document.getElementById("step3").style.display = "none";
+//   document.getElementById("step4").style.display = "block";
+// });

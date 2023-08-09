@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "Reply-To: $email\r\n";
     
     // Send the email
-    if (mail($recipient, $headers, $subject, $message)) {
+    if (mail($recipient, $headers)) {
         echo "Thank you for contacting us! Your message has been sent successfully.";
     } else {
         echo "Oops! Something went wrong. Please try again later.";
