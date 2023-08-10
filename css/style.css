@@ -405,6 +405,12 @@ button:hover::before,
     padding: 50px;
   }
 }
+.popup__form img{
+  width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .popup__form input, textarea {
   margin-top: 1.5rem;
   width: 200px;

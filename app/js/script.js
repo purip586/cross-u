@@ -49,6 +49,12 @@ cta4.addEventListener("click", function () {
   document.getElementById("popupForm").style.display = "block";
 });
 
+const closeIcon = document.getElementById("closeIcon");
+
+closeIcon.addEventListener("click", function () {
+  document.getElementById("popupForm").style.display = "none";
+});
+
 // document.getElementById("nextStep1").addEventListener("click", function () {
 //   const name = document.getElementById("nameInput").value;
 //   console.log(name);
