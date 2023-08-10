@@ -614,13 +614,14 @@ img:hover {
 .footer__logo {
   display: inline-block;
   text-align: left;
-  text-decoration: none;
 }
 .footer__logo img{
   width: 80px;
 }
 .footer__logo span{
   font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
 }
 @media (max-width: 63.9375em) {
   .footer__logo {
