@@ -14,11 +14,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send the email
     if (mail($recipient, $headers, $message)) {
         echo "Thank you for contacting us! Your message has been sent successfully.";
-        header("Location: https://www.buy-japanrealestate.com");
- 
-        exit;
+      
     } else {
         echo "Oops! Something went wrong. Please try again later.";
     }
 }
+    header("Location: https://www.buy-japanrealestate.com");
+    
+    exit;
 ?>
