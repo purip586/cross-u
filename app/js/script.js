@@ -35,6 +35,10 @@ const cta2 = document.getElementById("cta2");
 
 cta2.addEventListener("click", function () {
   document.getElementById("popupForm").style.display = "block";
+  fadeElems.forEach(function (element) {
+    element.classList.remove("fade-in");
+    element.classList.add("fade-out");
+  });
 });
 
 const cta3 = document.getElementById("cta3");
