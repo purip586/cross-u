@@ -25,9 +25,27 @@ btnHamburger.addEventListener("click", function () {
 });
 
 //cta
-const cta = document.getElementById("cta");
+const cta1 = document.getElementById("cta1");
 
-cta.addEventListener("click", function () {
+cta1.addEventListener("click", function () {
+  document.getElementById("popupForm").style.display = "block";
+});
+
+const cta2 = document.getElementById("cta2");
+
+cta2.addEventListener("click", function () {
+  document.getElementById("popupForm").style.display = "block";
+});
+
+const cta3 = document.getElementById("cta3");
+
+cta3.addEventListener("click", function () {
+  document.getElementById("popupForm").style.display = "block";
+});
+
+const cta4 = document.getElementById("cta4");
+
+cta4.addEventListener("click", function () {
   document.getElementById("popupForm").style.display = "block";
 });
 
