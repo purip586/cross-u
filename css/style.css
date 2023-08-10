@@ -404,8 +404,8 @@ button:hover::before,
     width: 500px;
   }
 }
-.popup__form input{
-  padding: 1rem;
+.popup__form input, textarea {
+  padding-top: 1.5rem;
   border: 0;
   border-bottom: 1px solid gray;
   border-radius: 0;
@@ -415,6 +415,11 @@ button:hover::before,
   background: transparent;
   appearance: none;
   -webkit-appearance: none;
+}
+@media (min-width: 40em) {
+  .popup__form input, textarea {
+    width: 400px;
+  }
 }
 
 
