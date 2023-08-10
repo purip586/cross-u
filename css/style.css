@@ -585,7 +585,7 @@ button:hover::before,
   }
 }
 img {
-  max-width: 300px;
+  max-width: 310px;
   transition: all 150ms ease-in-out;
 }
 @media (min-width: 64em) {
