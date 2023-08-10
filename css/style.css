@@ -405,7 +405,8 @@ button:hover::before,
   }
 }
 .popup__form input, textarea {
-  padding-top: 1.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
   border: 0;
   border-bottom: 1px solid gray;
   border-radius: 0;
