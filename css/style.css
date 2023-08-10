@@ -406,10 +406,11 @@ button:hover::before,
   }
 }
 .popup__form img{
-  width: 40px;
+  width: 30px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: .5rem;
+  right: .5rem;
+  cursor: pointer;
 }
 .popup__form input, textarea {
   margin-top: 1.5rem;
