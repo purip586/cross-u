@@ -621,7 +621,7 @@ img:hover {
 .footer__logo span{
   font-size: 1rem;
   text-decoration: none;
-  color: inherit;
+  color: gray;
 }
 @media (max-width: 63.9375em) {
   .footer__logo {
