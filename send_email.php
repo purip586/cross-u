@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Create email headers
     $headers = "From: $name <$email>\r\n";
-    $headers = "Reply-To: $email\r\n";
+    // $headers = "Reply-To: $email\r\n";
     
     // Send the email
     if (mail($recipient, $headers, $message)) {
