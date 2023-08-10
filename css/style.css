@@ -402,6 +402,7 @@ button:hover::before,
 @media (min-width: 40em) {
   .popup__form {
     width: 500px;
+    padding: 50px;
   }
 }
 .popup__form input, textarea {
