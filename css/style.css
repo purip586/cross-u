@@ -610,6 +610,7 @@ img:hover {
 }
 .footer {
   color: #9698a6;
+  text-decoration: none;
 }
 .footer__logo {
   display: inline-block;
