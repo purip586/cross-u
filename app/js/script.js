@@ -54,26 +54,22 @@ closeIcon.addEventListener("click", function () {
   document.getElementById("popupForm").style.display = "none";
 });
 
-// document.getElementById("nextStep1").addEventListener("click", function () {
-//   const name = document.getElementById("nameInput").value;
-//   console.log(name);
-//   document.getElementById("email").textContent =
-//     "Hi " + name + ", What is your email?";
-//   document.getElementById("step1").style.display = "none";
-//   document.getElementById("step2").style.display = "block";
-// });
+//property container
 
-// document.getElementById("nextStep2").addEventListener("click", function () {
-//   const email = document.getElementById("emailInput").value;
-//   console.log(email);
+const imgs = document.getElementById("imgs");
 
-//   document.getElementById("step2").style.display = "none";
-//   document.getElementById("step3").style.display = "block";
-// });
-// document.getElementById("nextStep3").addEventListener("click", function () {
-//   const subject = document.getElementById("subjectInput").value;
-//   console.log(subject);
+const img = document.querySelectorAll("#imgs img");
 
-//   document.getElementById("step3").style.display = "none";
-//   document.getElementById("step4").style.display = "block";
-// });
+let idx = 0;
+
+function run() {
+  idx++;
+
+  if (idx > img.length - 1) {
+    idx = 0;
+  }
+
+  imgs.style.transform = `translateX(${-idx * 500}px)`;
+}
+
+setInterval(run, 2000);

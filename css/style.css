@@ -624,34 +624,29 @@ button:hover::before,
   font-size: 0.8125rem;
 }
 
-
-.gallery__grid {
-  display: grid;
+.property__container {
+  display: flex;
   justify-content: center;
-  grid-template-columns: 1fr;
-  gap: 3rem;
+  align-items: center;
+  /* min-height: 100vh; */
 }
-@media (min-width: 40em) {
-  .gallery__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
+.carousel{
+  width: 1000px;
+  height: 500px;
+  overflow: hidden;
 }
-@media (min-width: 64em) {
-  .gallery__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
+.image-container{
+  display: flex;
+  transition: transform .3s linear;
+  transform: translateX(0);
 }
-img {
-  max-width: 310px;
-  transition: all 150ms ease-in-out;
-}
-@media (min-width: 64em) {
-  img{
-    max-width: 350px;
-  }
-}
-img:hover {
-  transform: scale(1.05);
+
+.image-container img{
+  width: 1000px;
+  height: 500px;
+  object-fit: contain;
 }
 
 
