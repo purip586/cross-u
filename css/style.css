@@ -624,6 +624,14 @@ button:hover::before,
   font-size: 0.8125rem;
 }
 
+.property__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .property__container {
   display: flex;
   justify-content: center;
@@ -632,7 +640,7 @@ button:hover::before,
 }
 
 .carousel{
-  width: 1000px;
+  width: 700px;
   height: 500px;
   overflow: hidden;
 }
@@ -644,9 +652,9 @@ button:hover::before,
 }
 
 .image-container img{
-  width: 1000px;
+  width: 700px;
   height: 500px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 

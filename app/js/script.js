@@ -69,7 +69,7 @@ function run() {
     idx = 0;
   }
 
-  imgs.style.transform = `translateX(${-idx * 500}px)`;
+  imgs.style.transform = `translateX(${-idx * 700}px)`;
 }
 
 setInterval(run, 2000);
