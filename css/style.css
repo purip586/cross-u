@@ -624,11 +624,8 @@ button:hover::before,
   font-size: 0.8125rem;
 }
 
-.property__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.gallery {
+text-align: center;
 
 }
 
